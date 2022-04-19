@@ -2,16 +2,21 @@
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+/* Index */
+
 .menu_ul { 
     padding: 5px;
     justify-content: space-around;
-
 } 
 
 .body {
     background-color: #F5F5F5;
 }
 
+/* .nav{
+    
+} */
 .menuli {
     padding: 3px;
     color: aliceblue;
@@ -78,6 +83,7 @@ h2 {
     margin-top: 20px;
 }
 
+/* Contacto */
 
 .registro{
     display: flex;
@@ -124,3 +130,161 @@ h2 {
 .boton:hover {
     background-color: #A9A9A9;    
 }
+
+/* Accesorios */
+.grid-content {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.fundas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.fundas1 img {
+    width: 250px;
+    border: 3px solid #C0C0C0;
+    border-radius: 5px;
+}
+
+.fundas1:hover {
+    transform: scale(1.1,1.1);
+}
+
+.fundas1 p {
+    width: 250px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;    
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.label {
+    margin: 10px;
+    
+}
+
+.aside h3 {
+    margin-top: 15px;
+
+}
+
+/* Iphone */
+.grid-content {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.iphones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.iphones1 img {
+    width: 250px;
+    border: 3px solid #C0C0C0;
+    border-radius: 5px;
+}
+
+.iphones1 p {
+    width: 250px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.iphones1:hover {
+    transform: scale(1.1,1.1);
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;    
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.label {
+    margin: 10px;
+    
+}
+
+.aside h3 {
+    margin-top: 15px;
+
+}
+
+/* Servicio tecnico */
+
+
+    .div-mayor {
+        display: flex;
+        flex-direction: row;
+        height: 150px;
+        margin-top: 50px;
+        justify-content: space-evenly;
+    }
+    .atributo img{
+        width: 100px;
+    }
+    
+    .atributo{
+        text-align: center;
+        width: 200px;
+    }
+    
+    .body2{
+        display: grid;
+        grid-template-areas:
+        "titulo"
+        "boton"
+        "div-mayor";
+    }
+    
+    .body2 h1 {
+        font-size: 50px;
+        margin: 0px 400px;
+        margin-top: 40px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    
+    .body2 input{
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        background-color: #808080;
+        border: 1px solid #000;
+        box-shadow: 1px 3px 5px #000;
+        padding: 4px;
+        text-align: center;
+        margin-top: 60px;
+        margin-bottom: 20px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    } 
+    
+    
+    .body2 .div-mayor{
+        font-family: 'Poppins', sans-serif;
+        margin: 20px 0px;
+        justify-content: space-around;
+    }
