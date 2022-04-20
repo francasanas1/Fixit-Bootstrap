@@ -11,22 +11,21 @@
     
 } 
 
-.body {
+body {
     background-color: #F5F5F5;
 }
 
 .menuli {
-    padding: 3px;
     color: aliceblue;
     font-size: 20px; 
-    
+    margin: 0px; 
 }
 
 .menuli a {
     color: aliceblue;
     text-decoration: none;
     border: #000;
-    margin-right: 20px;
+    margin-right: 20px; 
 }
 
 .menuli i {
