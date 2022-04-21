@@ -9,7 +9,7 @@
     padding: 5px;
     justify-content: space-around;
     margin-left: 4px;
-    
+    text-decoration: none;
 } 
 
 .nav{
@@ -24,6 +24,10 @@ body {
     color: aliceblue;
     font-size: 20px; 
     margin: 0px; 
+}
+
+.nav-item:hover{
+    text-decoration: underline;
 }
 
 .menuli a {
@@ -88,19 +92,19 @@ h2 {
 
 /* Contacto */
 
+
 .registro{
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 500px;
+    width: 400px;
     background-color: #343333;
-    padding: 10px;
+    padding: 40px;
     margin: auto;
     margin-top: 50px;
     border-radius: 3px;
     box-shadow: 7px 14px 37px #000;
-    
 }
+
 .registro input:hover {
     transform: scale(1.1,1.1);
 }
@@ -110,24 +114,21 @@ h2 {
 }
 
 .control {
-    width: 90%;
-    margin: auto;
+    width: 100%;
     background-color: #F5F5F5 ;
     border-radius: 4px;
-    margin-bottom: 5px;
-    padding: 30px 10px;
+    margin-bottom: 20px;
+    padding: 15px;
     border: 1px solid #343333;
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+
 }
 
 .boton {
-    margin: auto;
-    width: 50%;
-    padding: 2px;
+    margin: 10px 80px;
+    padding: 12px;
     background-color: #F5F5F5  ;
     margin-bottom: 5px;
-    font-size: 15px;
 } 
 
 .boton:hover {
@@ -135,6 +136,7 @@ h2 {
 }
 
 /* Accesorios */
+
 .grid-content {
     display: grid;
     grid-template-columns: 25% 75%;
@@ -187,7 +189,7 @@ h2 {
 /* Iphone */
 .grid-content {
     display: grid;
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 20% 80%;
 }
 
 .iphones {
@@ -237,57 +239,57 @@ h2 {
 /* Servicio tecnico */
 
 
-    .div-mayor {
-        display: flex;
-        flex-direction: row;
-        height: 150px;
-        margin-top: 50px;
-        justify-content: space-evenly;
-    }
-    .atributo img{
-        width: 100px;
-    }
+.div-mayor {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+.atributo img{
+    width: 100px;
+}
+
+.atributo{
+    text-align: center;
+    width: 200px;
+}
+
+.body2{
+    display: grid;
+    grid-template-areas:
+    "titulo"
+    "boton"
+    "div-mayor";
+}
+
+.body2 h1 {
+    font-size: 50px;
+    margin: 0px 400px;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.body2 input{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #808080;
+    border: 1px solid #000;
+    box-shadow: 1px 3px 5px #000;
+    padding: 4px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
     
-    .atributo{
-        text-align: center;
-        width: 200px;
-    }
-    
-    .body2{
-        display: grid;
-        grid-template-areas:
-        "titulo"
-        "boton"
-        "div-mayor";
-    }
-    
-    .body2 h1 {
-        font-size: 50px;
-        margin: 0px 400px;
-        margin-top: 40px;
-        font-family: 'Poppins', sans-serif;
-        text-align: center;
-    }
-    
-    .body2 input{
-        font-size: 20px;
-        font-family: 'Poppins', sans-serif;
-        background-color: #808080;
-        border: 1px solid #000;
-        box-shadow: 1px 3px 5px #000;
-        padding: 4px;
-        text-align: center;
-        margin-top: 60px;
-        margin-bottom: 20px;
-        width: 200px;
-        margin-left: auto;
-        margin-right: auto;
-        
-    } 
-    
-    
-    .body2 .div-mayor{
-        font-family: 'Poppins', sans-serif;
-        margin: 20px 0px;
-        justify-content: space-around;
-    }
+} 
+
+
+.body2 .div-mayor{
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 0px;
+    justify-content: space-around;
+}
