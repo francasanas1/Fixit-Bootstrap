@@ -1,0 +1,48 @@
+.grid-content {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.iphones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.iphones1 img {
+    width: 250px;
+    border: 3px solid #C0C0C0;
+    border-radius: 5px;
+}
+
+.iphones1 p {
+    width: 250px;
+    font-family: $letra-poppins;
+}
+
+.iphones1:hover {
+    transform: scale(1.1,1.1);
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;    
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin: 20px;
+    font-family: $letra-poppins;
+}
+
+.label {
+    margin: 10px;
+    
+}
+
+.aside h3 {
+    margin-top: 15px;
+
+}

@@ -1,0 +1,94 @@
+$negro: #343333;
+$gris:  #F5F5F5;
+$letra-poppins: 'Poppins', sans-serif;
+$gris1: #A9A9A9;
+@import "contacto";
+@import "servicio-tecnico";
+@import "accesorios";
+@import "iphone";
+
+
+.menu_ul { 
+    padding: 5px;
+    justify-content: space-around;
+    margin-left: 4px;
+    text-decoration: none;
+} 
+
+.nav{
+    background-color:$negro;
+}
+
+body {
+    background-color: $gris ;
+}
+
+.menuli {
+    color: aliceblue;
+    font-size: 20px; 
+    margin: 0px; 
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+}
+
+.menuli a {
+    color: aliceblue;
+    text-decoration: none;
+    border: #000;
+    margin-right: 20px; 
+}
+
+.menuli i {
+    margin-right: 10px;
+}
+
+h1 {
+    font-family: $letra-poppins;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+h2 {
+    color: #a8a5a5;
+    font-family: $letra-poppins;
+    position: relative;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-left: 15px;
+    text-align: end;
+}
+.logo img {
+    border-radius: 3px;
+    border: $negro solid 3px;
+    margin-left: auto;
+    
+}
+
+
+.logo {
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.main1 {
+    margin-top: 3%;
+}
+.articulos {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: $letra-poppins;
+    margin-top: 60px;
+    align-items: center;
+    height: auto;
+    margin-top: 5%;
+} 
+
+.articulo1 {
+    margin-top: 20px;
+}
