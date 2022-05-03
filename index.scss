@@ -2,10 +2,12 @@ $negro: #343333;
 $gris:  #F5F5F5;
 $letra-poppins: 'Poppins', sans-serif;
 $gris1: #A9A9A9;
+
 @import "contacto";
 @import "servicio-tecnico";
 @import "accesorios";
 @import "iphone";
+@import "mac";
 
 
 .menu_ul { 
@@ -26,7 +28,7 @@ body {
 .menuli {
     color: aliceblue;
     font-size: 20px; 
-    margin: 0px; 
+    margin: 10px;
 }
 
 .nav-item:hover{
@@ -47,7 +49,7 @@ body {
 h1 {
     font-family: $letra-poppins;
     position: relative;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 15px;
 }
 
@@ -77,18 +79,39 @@ h2 {
 .main1 {
     margin-top: 3%;
 }
+
 .articulos {
     display: flex;
-    flex-direction: row; 
+    flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
     font-family: $letra-poppins;
-    margin-top: 60px;
     align-items: center;
     height: auto;
-    margin-top: 5%;
-} 
+    margin-top: 10%;
+}
 
 .articulo1 {
     margin-top: 20px;
+}
+
+@media (min-width: 600px) {
+    
+    .articulos {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-evenly;
+        text-align: center;
+        font-family: $letra-poppins;
+        margin-top: 60px;
+        align-items: center;
+        height: auto;
+        margin-top: 5%;
+    } 
+}
+
+@media (min-width: 990px) {
+    .menuli{
+        margin: 0px;
+    }
 }

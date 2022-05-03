@@ -2,7 +2,7 @@
 .registro{
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: auto;
     background-color: $negro;
     padding: 40px;
     margin: auto;
@@ -39,4 +39,10 @@
 
 .boton:hover {
     background-color: $gris1;    
+}
+
+@media (min-width: 430px){
+    .registro{
+        width: 400px;
+    }
 }
