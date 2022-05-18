@@ -286,6 +286,213 @@
     display: grid;
     grid-template-columns: 40% 60%; } }
 
+.grid-content {
+  display: grid;
+  grid-template-columns: 30% 70%; }
+
+.ipad {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.ipad1 {
+  height: 320px;
+  margin: 20px 5px; }
+
+.ipad1 img {
+  width: 250px;
+  height: 250px;
+  border: 3px solid #C0C0C0;
+  border-radius: 5px; }
+
+.ipad1 {
+  margin-right: 5px; }
+
+.ipad1 p {
+  font-family: "Poppins", sans-serif; }
+
+.ipad1:hover {
+  transform: scale(1.1, 1.1); }
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  justify-content: flex-start;
+  align-content: flex-start;
+  margin: 10px;
+  font-family: "Poppins", sans-serif; }
+
+.label {
+  margin: 10px; }
+
+.aside h3 {
+  margin-top: 15px; }
+
+@media (min-width: 750px) {
+  .aside {
+    margin: 20px;
+    justify-content: flex-start;
+    align-content: flex-start; }
+  .grid-content {
+    display: grid;
+    grid-template-columns: 20% 80%; } }
+
+@media (min-width: 450px) {
+  .ipad1 img {
+    width: 250px;
+    border: 3px solid #C0C0C0;
+    border-radius: 5px; }
+  .ipad1 p {
+    width: 250px;
+    font-family: "Poppins", sans-serif; } }
+
+@media (max-width: 430px) {
+  .grid-content {
+    display: grid;
+    grid-template-columns: 40% 60%; } }
+
+.grid-content {
+  display: grid;
+  grid-template-columns: 30% 70%; }
+
+.accesorios {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 5px;
+  margin-top: 20px; }
+
+.accesorios1 {
+  height: 320px;
+  margin: 20px 5px; }
+
+.accesorios1 img {
+  width: 250px;
+  height: 250px;
+  border: 3px solid #C0C0C0;
+  border-radius: 5px; }
+
+.accesorios1 {
+  margin-right: 5px; }
+
+.accesorios1 p {
+  width: 150px;
+  font-family: "Poppins", sans-serif; }
+
+.accesorios1:hover {
+  transform: scale(1.1, 1.1); }
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  justify-content: flex-start;
+  align-content: flex-start;
+  margin: 10px;
+  font-family: "Poppins", sans-serif; }
+
+.label {
+  margin: 10px; }
+
+.aside h3 {
+  margin-top: 15px; }
+
+@media (min-width: 750px) {
+  .aside {
+    margin: 20px;
+    justify-content: flex-start;
+    align-content: flex-start; }
+  .grid-content {
+    display: grid;
+    grid-template-columns: 20% 80%; } }
+
+@media (min-width: 450px) {
+  .accesorios1 img {
+    width: 250px;
+    border: 3px solid #C0C0C0;
+    border-radius: 5px; }
+  .accesorios1 p {
+    width: 250px;
+    font-family: "Poppins", sans-serif; } }
+
+@media (max-width: 430px) {
+  .grid-content {
+    display: grid;
+    grid-template-columns: 40% 60%; } }
+
+.grid-content {
+  display: grid;
+  grid-template-columns: 40% 60%; }
+
+.applewatch {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 5px;
+  margin-top: 20px; }
+
+.applewatch1 {
+  height: 320px;
+  margin: 20px 5px; }
+
+.applewatch1 img {
+  width: 250px;
+  height: 250px;
+  border: 3px solid #C0C0C0;
+  border-radius: 5px; }
+
+.applewatch1 {
+  margin-right: 5px; }
+
+.applewatch1 p {
+  width: 150px;
+  font-family: "Poppins", sans-serif; }
+
+.applewatch1:hover {
+  transform: scale(1.1, 1.1); }
+
+.aside1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  justify-content: flex-start;
+  align-content: flex-start;
+  margin: 10px;
+  font-family: "Poppins", sans-serif; }
+
+.label {
+  margin: 10px; }
+
+.aside1 h3 {
+  margin-top: 15px; }
+
+@media (min-width: 750px) {
+  .aside1 {
+    margin: 10px;
+    justify-content: flex-start;
+    align-content: flex-start; }
+  .grid-content {
+    display: grid;
+    grid-template-columns: 20% 80%; } }
+
+@media (min-width: 450px) {
+  .applewatch1 img {
+    width: 250px;
+    border: 3px solid #C0C0C0;
+    border-radius: 5px; }
+  .applewatch1 p {
+    width: 250px;
+    font-family: "Poppins", sans-serif; } }
+
+@media (max-width: 430px) {
+  .grid-content {
+    display: grid;
+    grid-template-columns: 40% 60%; } }
+
 .menu_ul {
   padding: 5px;
   justify-content: space-around;

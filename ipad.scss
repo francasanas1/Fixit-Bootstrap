@@ -3,36 +3,33 @@
     grid-template-columns: 30% 70%;
 }
 
-.accesorios {
+.ipad {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around ;
-    margin-left: 5px;
-    margin-top: 20px;
 }
 
-.accesorios1 {
+.ipad1 {
     height: 320px;
     margin: 20px 5px;
 }
-.accesorios1 img {
+.ipad1 img {
     width: 250px;
     height: 250px;
     border: 3px solid #C0C0C0;
     border-radius: 5px;
 }
 
-.accesorios1 {
+.ipad1 {
     margin-right: 5px;
 }
 
-.accesorios1 p {
-    width: 150px;
+.ipad1 p {
     font-family: $letra-poppins;
 }
 
-.accesorios1:hover {
+.ipad1:hover {
     transform: scale(1.1,1.1);
 }
 
@@ -71,13 +68,13 @@
     
 @media (min-width: 450px){
     
-    .accesorios1 img {
+    .ipad1 img {
         width: 250px;
         border: 3px solid #C0C0C0;
         border-radius: 5px;
     }
     
-    .accesorios1 p {
+    .ipad1 p {
         width: 250px;
         font-family: $letra-poppins;
     }
