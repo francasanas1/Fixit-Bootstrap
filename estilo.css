@@ -233,7 +233,7 @@
 
 .mac1 img {
   width: 150px;
-  height: 126px;
+  height: 150px;
   border: 3px solid #C0C0C0;
   border-radius: 5px; }
 
@@ -294,15 +294,16 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: space-around;
+  align-content: flex-start;
+  margin-top: 20px; }
 
 .ipad1 {
-  height: 320px;
-  margin: 20px 5px; }
+  margin: 0px 5px; }
 
 .ipad1 img {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   border: 3px solid #C0C0C0;
   border-radius: 5px; }
 
@@ -342,6 +343,7 @@
 @media (min-width: 450px) {
   .ipad1 img {
     width: 250px;
+    height: 250px;
     border: 3px solid #C0C0C0;
     border-radius: 5px; }
   .ipad1 p {
